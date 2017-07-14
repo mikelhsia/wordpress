@@ -1,0 +1,30 @@
+#floating-shopping-cart-window-right {
+    box-shadow: 1px 2px 3px grey, -2px 3px 2px lightgrey;
+    position: fixed;
+    top: 200px;
+    right: 0px;
+    z-index: 9999;
+}
+
+#floating-shopping-cart-window-left {
+    box-shadow: -2px 3px 3px grey, 3px 4px 2px lightgrey;
+    position: fixed;
+    top: 200px;
+    left: 0px;
+    z-index: 9999;
+}
+
+#floating-shopping-cart-window-bottom {
+    box-shadow: 1px -2px 2px grey, 2px -3px 3px lightgrey;
+    width: 100%;
+    position: fixed;
+    left:0px;
+    bottom: 0px;
+    z-index: 9999;
+}
+
+table.floating_shopping_cart_table{
+    margin:0 0 0 0;
+    line-height:14px;
+}
+
