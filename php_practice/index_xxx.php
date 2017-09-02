@@ -124,6 +124,8 @@ document.write("<h1>Now we start:</h1>");
 
 	// eval($str);   把字符串作为PHP代码执行
 
+    $js = `python /Users/puppylpy/Desktop/Python/IEXApiPractice/practice1.py`;
+    echo $js;
 
 ?>
 </pre>
